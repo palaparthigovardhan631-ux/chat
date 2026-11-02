@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "ShadowChat",
+    "slug": "shadowchat",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0F172A"
+    },
+    "scheme": "shadowchat",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.shadowchat.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0F172A"
+      },
+      "package": "com.shadowchat.app",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "CAMERA",
+        "RECORD_AUDIO",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "title": "ShadowChat — Anonymous Encrypted Real-Time Messenger & Calls",
+      "description": "Zero phone numbers. Zero emails. Fully pseudonymous encrypted messaging, WebRTC P2P voice/video calls, and cryptographic seed phrase recovery.",
+      "lang": "en",
+      "themeColor": "#0F172A"
+    }
+  }
+}
